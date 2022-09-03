@@ -27,7 +27,7 @@
       transform:translateX(0px);
     }
     100% {
-      transform: translateX(1650px);
+      transform: translateX(2000px);
     }
   }
   .car2 img{
@@ -50,7 +50,7 @@
       
     }
     100% {
-      transform: translateX(-1650px);
+      transform: translateX(-2000px);
     
     }
   }
@@ -75,7 +75,7 @@
       opacity:1;
     }
     100% {
-      transform: translateX(1650px);
+      transform: translateX(2000px);
       opacity: 1;
     }
   }
@@ -103,7 +103,7 @@
       
     }
     100% {
-      transform: translateX(-1650px);
+      transform: translateX(-2000px);
       opacity:1;
     
     }
