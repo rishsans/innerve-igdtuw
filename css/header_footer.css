@@ -18,8 +18,8 @@ body {
 
 }
 
-nav {
 
+nav {
 
   height: 80px;
   width: 100%;
@@ -45,9 +45,14 @@ nav ul li a {
   font-weight: bold;
 }
 
+.navbar-brand:active,
+.navbar-brand:hover {
+  background-color: transparent;
+}
+
 a.active,
 a:hover {
-  background: #bdbdbde7;
+  background: #efa7fe41;
   transition: .5s;
 }
 
@@ -140,7 +145,7 @@ a:hover {
 }
 
 section {
-  /* background: url("../assets/header_footer/wave.png") no-repeat; */
+  background: url(bg1.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
 }
@@ -238,7 +243,7 @@ footer .wave {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(assets\header_footer\Untitled\ \(4\).png);
+  background: url("../assets/header_footer/wave.png");
   background-size: 1000px 100px;
 }
 
