@@ -16,6 +16,7 @@ body{
     background: url(../assets/SponsorsBG.png);
     background-attachment: fixed;
     font:  #BAB0EA;
+   background-size: cover;
 }
 
 .main{
