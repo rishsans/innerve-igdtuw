@@ -108,9 +108,7 @@ section {
     height: calc(100vh - 80vh);
 }
 
-nav ul{
-    z-index: 4;
-}
+
 @media (max-width: 991px){
     .container .card{
         width: auto;
