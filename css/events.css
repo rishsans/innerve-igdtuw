@@ -1,5 +1,6 @@
+@import "./header_footer.css";
 body {
-    background-image: url("../assets/events/b.jpg") no-repeat;
+    background: url("../assets/events/eventbg.jpg") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     font-size: 18px;
@@ -28,6 +29,7 @@ a:active {
 }
 
 .container {
+    
     max-width: 800px;
     margin: 0 auto;
 }
